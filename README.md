@@ -1,4 +1,4 @@
-# mt5-trading-bot
+# MT5 Trading Bot — a live-running system on a demo account
 
 An always-on MetaTrader 5 bot that traded six instruments on 15-minute bars, built between July 2024 and February 2025. It woke one second after every bar close, refused to trade around red-impact economic releases, flattened itself on a 2% daily drawdown, stood down over the weekend, and retrained its own models once a month.
 
