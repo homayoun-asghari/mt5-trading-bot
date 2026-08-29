@@ -226,7 +226,9 @@ Every notebook under `training/` validates with `train_test_split` on 15-minute 
 
 ## Credentials
 
-The originals had the MT5 account number, MT5 password, mail account and mail password as string literals in the first cell of every notebook. They have been replaced by `os.environ[...]` reads by an automated scrubber, and **the credentials themselves have been rotated**. See `.env.example`.
+The originals had the MT5 account number, MT5 password, mail account and mail password as string literals in the first cell of every notebook. They have been replaced by `os.environ[...]` reads by an automated scrubber, so none of them appear in this repository. See `.env.example`.
+
+The MT5 credentials were for `Alpari-MT5-Demo` accounts, not funded ones. This README does not assert that the underlying accounts or the mail credential have been changed at the provider.
 
 ## What is not committed
 
