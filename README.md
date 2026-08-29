@@ -2,7 +2,7 @@
 
 An always-on MetaTrader 5 bot that traded six instruments on 15-minute bars, built between July 2024 and February 2025. It woke one second after every bar close, refused to trade around red-impact economic releases, flattened itself on a 2% daily drawdown, stood down over the weekend, and retrained its own models once a month.
 
-**The strategy did not work.** The models behind it were validated with random train/test splits on overlapping rolling-window features, and the per-bar edge was two to three orders of magnitude smaller than the spread. A cost-aware simulation of the same rule returned **−11.75%**. That investigation is a separate repository: **[fx-ml-postmortem](../fx-ml-postmortem)** — read it before you read anything here as an endorsement of the signal.
+**The strategy did not work.** The models behind it were validated with random train/test splits on overlapping rolling-window features, and the per-bar edge was two to three orders of magnitude smaller than the spread. A cost-aware simulation of the same rule returned **−11.75%**. That investigation is a separate repository: **[fx-ml-postmortem](https://github.com/homayoun-asghari/fx-ml-postmortem)** — read it before you read anything here as an endorsement of the signal.
 
 What is left is the operational engineering, which is the genuinely good part and is independent of whether the signal had an edge. This README is mostly about that, and about the four bugs that shipped.
 
