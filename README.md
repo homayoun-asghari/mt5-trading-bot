@@ -15,6 +15,8 @@ Two ordering notes, both real:
 - `U4.ipynb` (mtime `2025-01-11T06:26:18`) is committed **before** `U3.ipynb` (mtime `2025-01-20T18:08:04`), against the numbering. The two files are byte-identical apart from two lines that are active in U4 and commented out in U3, so the later mtime is the later state. Nothing was reordered for narrative; the filenames are simply misleading.
 - No date in this repository was inferred. Every one came from an mtime.
 
+> Three files — `training/train_USDJPY.ipynb`, `bot/check_and_trade.py` and `bot/fetch_news.ipynb` — were found in a later coverage sweep of the archive and committed afterwards, at their own real mtimes. They therefore sit at the tip of the branch while carrying 2024 dates.
+
 ## Timeline
 
 | Date | File | What changed |
