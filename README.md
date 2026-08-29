@@ -252,3 +252,18 @@ There is no build. These are Jupyter notebooks against a live MetaTrader 5 termi
 ---
 
 Read `fx-ml-postmortem` alongside this. The bot is the part that was built well; the postmortem is the part that establishes it was built well around nothing.
+
+## Attribution
+
+**`bot/config.py` and `bot/utils.py` are not mine.** They are taken essentially verbatim from
+[fizahkhalid/forex_factory_calendar_news_scraper](https://github.com/fizahkhalid/forex_factory_calendar_news_scraper)
+— `ALLOWED_ELEMENT_TYPES`, `EXCLUDED_ELEMENT_TYPES`, `ICON_COLOR_MAP`, `read_json`, `contains_day_or_month`
+and `find_pattern_category` are that author's code, down to the comments. The repository was cloned onto my
+drive in September 2024 with its `.git` intact and no local commits. The economic-news blackout in this bot
+depends on them, so they are committed here rather than omitted, but the parsing work is not mine.
+
+A second scraper, [AtaCanYmc/ForexFactoryScrapper](https://github.com/AtaCanYmc/ForexFactoryScrapper), was also
+on the drive and is not used by this bot.
+
+Everything else in `bot/`, `lineage/` and `training/` is my own.
+
