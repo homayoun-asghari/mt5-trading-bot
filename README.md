@@ -9,6 +9,8 @@ What is left is the operational engineering, which is the genuinely good part an
 ## Provenance
 
 > Reconstructed in 2026 from a filesystem archive. This code was never under version control at the time. **Commit dates are the real modification times of the original files**, recovered with `stat`, accurate to the second. Commits dated 2026 are this README and the `.env.example`, and are labelled as such.
+>
+> One limit worth stating: a modification time is not an authorship time. It records when a file was last written, which for a copied or re-saved file is later than when the work was done. This drive holds duplicated trees, so some files were certainly moved between them. These dates are therefore a faithful transcription of the filesystem's timeline and a **floor** on when the work happened — not independent proof of authorship on that date.
 
 Two ordering notes, both real:
 
